@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <header className="flex">
+      <header className="flex items-center justify-between ">
         <Link href="" className="text-red-500  font-bold text-2xl">
           CEYLON PIZZA
         </Link>
