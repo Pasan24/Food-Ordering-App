@@ -1,13 +1,23 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function HomeMenu() {
   return (
     <section>
 
-        <div>
+            <div className='relative'>
+                <div className='h-48  w-48 absolute '>
 
-            
-        </div>
+                    <Image src={'/sallad1.png'} layout={'fill'}  objectFit={'contain'} alt={'sallad'}></Image>
+                </div>
+
+                <div className='h-48 relative'>
+
+                <Image src={'/sallad2.png'} layout={'fill'}  objectFit={'contain'} alt={'sallad'}></Image>
+                </div>
+
+            </div>
+
+      
 
         <div className='text-center'>
         <h3 className='uppercase text-gray-600 font-semibold'> Check Out</h3>
