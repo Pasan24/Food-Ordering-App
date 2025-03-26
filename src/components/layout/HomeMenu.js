@@ -2,15 +2,16 @@ import React from 'react'
 import Image from 'next/image'
 export default function HomeMenu() {
   return (
-    <section>
+    <section className=''>
 
-            <div className='relative'>
-                <div className='h-48  w-48 absolute '>
+            <div className=' absolute left-0 right-0 w-full justify-start'>
+
+                <div className='h-48  w-48 absolute -left-12 text-left'>
 
                     <Image src={'/sallad1.png'} layout={'fill'}  objectFit={'contain'} alt={'sallad'}></Image>
                 </div>
 
-                <div className='h-48 relative'>
+                <div className='h-48 w-48 relative -right-12'>
 
                 <Image src={'/sallad2.png'} layout={'fill'}  objectFit={'contain'} alt={'sallad'}></Image>
                 </div>
