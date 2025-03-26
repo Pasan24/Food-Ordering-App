@@ -17,7 +17,7 @@ export default function Hero() {
         <p className='mt-4 text-sm'>Pizza is the missing piece that makes every day complete, a simple yet delecious joy in life.</p>
 
         <div className="flex gap-4 mt-4">
-            <button className="text-white bg-red-600  px-4 py-2 rounded-full flex gap-2 uppercase text-sm items-center ">Order Now <Right/></button>
+            <button className="text-white bg-red-500  px-4 py-2 rounded-full flex gap-2 uppercase text-sm items-center ">Order Now <Right/></button>
             <button className="flex gap-2   py-2 text-gray-600 font-semibold ">Learn More <Right/></button>
         </div>
         </div>

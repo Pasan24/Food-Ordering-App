@@ -17,7 +17,7 @@ return(
           <Link href={''} className="text-primary">Menu</Link>
           <Link href={''} className="text-primary">About</Link>
           <Link href={''} className="text-primary">Contact</Link>
-          <Link href={''} className="text-white bg-red-600  px-8 py-2 rounded-full">Login</Link>
+          <Link href={''} className="text-white bg-red-500  px-8 py-2 rounded-full">Login</Link>
 
         </nav>
 
