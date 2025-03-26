@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export default function HomeMenu() {
   return (
-    <section className='relative h-96'>
+    <section className=''>
       {/* Container for the salad images */}
-      <div className='absolute inset-0 overflow-hidden'>
+      <div className='absolute h-full left-0 right-0 w-full justify-start'>
         
         {/* Left Salad Image */}
         <div className='absolute left-8 -top-[70px] text-left -z-10'>
@@ -19,9 +19,15 @@ export default function HomeMenu() {
       </div>
 
       {/* Menu Heading */}
-      <div className='text-center pt-16'>
+      <div className='text-center mt-6'>
         <h3 className='uppercase text-gray-600 font-semibold'>Check Out</h3>
         <h3 className='text-red-500 font-bold text-4xl italic'>Menu</h3>
+      </div>
+
+      <div>
+
+        
+
       </div>
     </section>
   );
