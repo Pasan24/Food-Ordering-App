@@ -8,7 +8,7 @@ import SectionHeaders from "@/components/layout/SectionHeaders";
 export default function Home() {
   return (
     <>
-    <Header/>
+    
     <Hero/>
     <HomeMenu/>
 
@@ -18,7 +18,7 @@ export default function Home() {
         mainHeader={'About Us'}
       />
 
-      <div className="max-w-2xl mx-auto mt-4 text-gray-500 text-justify leading-relaxed flex flex-col gap-4 ">
+      <div className="max-w-md mx-auto mt-4 text-gray-500 leading-relaxed flex flex-col gap-4 ">
 
       <p >
         At Ceylon Pizza, we’ve been crafting delicious, handcrafted pizzas for generations. Our journey began in 2001,
@@ -64,10 +64,7 @@ export default function Home() {
 
     </section>
 
-    <footer className="border-t p-8 text-center text-gray-500 mt-16">
-      &copy; 2025 All rights reserved
-
-    </footer>
+  
     </>
   );
 }
