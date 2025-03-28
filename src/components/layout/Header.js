@@ -8,7 +8,7 @@ return(
       
 
         <nav className="flex items-center gap-8 font-bold text-gray-500">
-        <Link href="" className="text-red-500  font-bold text-2xl">
+        <Link href={'/'} className="text-red-500  font-bold text-2xl">
         
         CEYLON PIZZA
 
