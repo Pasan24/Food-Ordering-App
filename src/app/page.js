@@ -17,6 +17,7 @@ export default function Home() {
         subHeader={'Our Story'} 
         mainHeader={'About Us'}
       />
+
       <div className="max-w-2xl mx-auto mt-4 text-gray-500 text-justify leading-relaxed flex flex-col gap-4 ">
 
       <p >
@@ -48,9 +49,25 @@ export default function Home() {
 
     </section>
 
-    <section>
-      
+    <section className="text-center my-8">
+
+      <SectionHeaders
+        subHeader={'Don\'t Miss Out'}
+        mainHeader={'Contact Us'}
+      />
+
+      <div className="mt-8 ">
+        <a className="text-4xl  underline text-gray-500" href="tel:+94771234567">
+          +94 77 123 4567
+        </a>
+      </div>
+
     </section>
+
+    <footer className="border-t p-8 text-center text-gray-500 mt-16">
+      &copy; 2025 All rights reserved
+
+    </footer>
     </>
   );
 }
