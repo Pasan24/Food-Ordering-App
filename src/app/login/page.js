@@ -11,10 +11,10 @@ export default function LoginPage() {
     const [loginInProgress,setLoginInProgress] = useState(false);
 
     async function handleFormSubmit(ev){
-      ev.prevenDefault();
+      ev.preventDefault();
       setLoginInProgress(true);
 
-      await signIn ('Credentials');
+      await signIn ('Credentials', {email,password});
       setLoginInProgress(false);
     
     }
